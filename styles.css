@@ -21,23 +21,16 @@ body{
 }
 
 .navbar{
-    position:sticky;
-    top:0;
-    z-index:1000;
-
-    background:white;
-
+    height:86px;
+    padding:0 6%;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-
-    padding:18px 6%;
-
-    border-bottom:1px solid #ececec;
+    justify-content:space-between;
 }
 
 .logo img{
-    height:48px;
+    width:220px;
+    height:auto;
     display:block;
 }
 
