@@ -27,22 +27,24 @@ body{
 
     background:white;
 
-    display:flex;
-    justify-content:space-between;
+    display:grid;
+    grid-template-columns:auto 1fr auto;
     align-items:center;
 
-    padding:15px 8%;
+    padding:8px 6%;
 
     border-bottom:1px solid #ececec;
 }
 
 .logo img{
     height:120px;
+    display:block;
 }
 
 nav{
     display:flex;
-    gap:35px;
+    gap:32px;
+    justify-content:center;
 }
 
 nav a{
