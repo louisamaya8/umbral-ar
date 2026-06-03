@@ -27,34 +27,25 @@ body{
 
     background:white;
 
-    display:grid;
-    grid-template-columns:auto 1fr auto;
+    display:flex;
+    justify-content:space-between;
     align-items:center;
 
-    padding:8px 6%;
+    padding:18px 6%;
 
     border-bottom:1px solid #ececec;
 }
 
 .logo img{
-    height:120px;
+    height:48px;
     display:block;
 }
 
 nav{
     display:flex;
-    gap:32px;
-    justify-content:center;
-}
-
-nav a{
-    text-decoration:none;
-    color:#111;
-    font-weight:500;
-}
-
-nav a:hover{
-    color:var(--gold);
+    gap:34px;
+    margin-left:40px;
+    margin-right:auto;
 }
 
 .btn-nav{
@@ -62,14 +53,13 @@ nav a:hover{
     color:white;
     text-decoration:none;
 
-    padding:12px 22px;
-    border-radius:6px;
+    padding:14px 24px;
+    border-radius:4px;
+
+    font-size:.9rem;
+    font-weight:600;
 
     transition:.3s;
-}
-
-.btn-nav:hover{
-    background:var(--gold);
 }
 
 .hero{
