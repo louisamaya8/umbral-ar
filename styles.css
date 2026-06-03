@@ -273,3 +273,16 @@ footer{
     }
 
 }
+
+.navbar a{
+    text-decoration:none !important;
+    color:#111 !important;
+}
+
+.navbar a:hover{
+    color:#C9A46A !important;
+}
+
+.btn-nav{
+    color:white !important;
+}
