@@ -208,6 +208,12 @@ nav a:hover{
     text-align:center;
 }
 
+.benefit-icon{
+    width:55px;
+    height:55px;
+    margin-bottom:20px;
+}
+
 /* PROCESO */
 
 .process{
