@@ -1,3 +1,5 @@
+console.log("Gandalf estuvo aquí");
+
 // Umbral AR
 
 const slides = document.querySelectorAll('.slide');
