@@ -396,3 +396,39 @@ footer{
         grid-template-columns:1fr;
     }
 }
+
+
+/* ARREGLO TELÉFONO */
+
+body{
+    overflow-x:hidden;
+}
+
+.cta{
+    overflow:hidden;
+}
+
+.cta img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+/* Ajuste hero en celular */
+@media(max-width:900px){
+
+    .slide{
+        object-fit:cover;
+        object-position:62% center;
+    }
+
+    .hero{
+        min-height:720px;
+    }
+
+    .cta img{
+        width:100%;
+        max-width:100%;
+    }
+}
