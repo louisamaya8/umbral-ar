@@ -444,10 +444,10 @@ footer{
         min-height:720px;
     }
 
-    .slide{
-        object-fit:cover;
-        object-position:65% center;
-    }
+   .slide{
+    object-fit:cover;
+    object-position:78% center;
+}
 
     .cta img{
         width:100%;
