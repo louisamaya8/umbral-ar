@@ -328,6 +328,10 @@ footer{
 
 @media(max-width:900px){
 
+    .process-grid{
+    grid-template-columns:1fr;
+}
+    
     .navbar{
         padding:0 20px;
     }
