@@ -454,3 +454,6 @@ footer{
         height:auto;
     }
 }
+html, body {
+    overflow-x: hidden;
+}
