@@ -251,6 +251,12 @@ nav a:hover{
     font-size:2rem;
 }
 
+.process-icon img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+
 .process-step span{
     position:absolute;
     top:65px;
