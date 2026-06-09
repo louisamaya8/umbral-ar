@@ -20,6 +20,12 @@ body{
 
 /* NAVBAR */
 
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
 .navbar{
     position:sticky;
     top:0;
@@ -379,6 +385,15 @@ footer{
 
 @media(max-width:900px){
 
+.nav-actions{
+    gap:10px;
+}
+
+.lang-switch{
+    padding:10px 14px;
+    font-size:13px;
+}
+    
     .process-grid{
     grid-template-columns:1fr;
 }
